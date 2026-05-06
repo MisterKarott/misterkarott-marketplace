@@ -1,5 +1,4 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "misterkarott-marketplace",
   "description": "Plugins Claude Code par Chris (MisterK)",
   "owner": {
