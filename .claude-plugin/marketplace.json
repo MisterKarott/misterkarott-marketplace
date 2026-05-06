@@ -1,5 +1,47 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "misterkarott-marketplace",
   "description": "Plugins Claude Code par Chris (MisterK)",
-  "plugins": ["glm-quota", "claude-quota", "stratavarious"]
+  "owner": {
+    "name": "Chris",
+    "email": "noreply@github.com"
+  },
+  "plugins": [
+    {
+      "name": "glm-quota",
+      "description": "Z.ai/GLM quota statusline, detailed quota skill, and MCP coherence check for Claude Code",
+      "author": {
+        "name": "Chris"
+      },
+      "category": "monitoring",
+      "source": {
+        "source": "local",
+        "path": "plugins/glm-quota"
+      }
+    },
+    {
+      "name": "claude-quota",
+      "description": "Claude Pro quota statusline and detailed quota skill for Claude Code",
+      "author": {
+        "name": "Chris"
+      },
+      "category": "monitoring",
+      "source": {
+        "source": "local",
+        "path": "plugins/claude-quota"
+      }
+    },
+    {
+      "name": "stratavarious",
+      "description": "Persistent memory system for Claude Code — replaces /handoff",
+      "author": {
+        "name": "Chris"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "local",
+        "path": "plugins/stratavarious"
+      }
+    }
+  ]
 }
