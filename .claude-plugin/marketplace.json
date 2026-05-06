@@ -1,0 +1,5 @@
+{
+  "name": "misterkarott-marketplace",
+  "description": "Plugins Claude Code par Chris (MisterK)",
+  "plugins": ["glm-quota", "claude-quota", "stratavarious"]
+}
