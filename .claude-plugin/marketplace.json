@@ -15,8 +15,9 @@
       },
       "category": "monitoring",
       "source": {
-        "source": "local",
-        "path": "plugins/glm-quota"
+        "source": "url",
+        "url": "https://github.com/MisterKarott/glm-quota.git",
+        "sha": "c3a518c46c7760682b6931a55e3cad6bc3bd4f74"
       }
     },
     {
@@ -27,8 +28,9 @@
       },
       "category": "monitoring",
       "source": {
-        "source": "local",
-        "path": "plugins/claude-quota"
+        "source": "url",
+        "url": "https://github.com/MisterKarott/claude-quota.git",
+        "sha": "79bbb1e86e32c5df689cbe1c9d49c311a0ef3d63"
       }
     },
     {
@@ -39,8 +41,22 @@
       },
       "category": "productivity",
       "source": {
-        "source": "local",
-        "path": "plugins/stratavarious"
+        "source": "url",
+        "url": "https://github.com/MisterKarott/stratavarious.git",
+        "sha": "92da53592be8129f430883f101f9a6c122c7b458"
+      }
+    },
+    {
+      "name": "permission-sound",
+      "description": "Play a sound notification when Claude Code needs user permission for a tool call",
+      "author": {
+        "name": "Chris"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/MisterKarott/permission-sound.git",
+        "sha": "c938681816ef04b2a38103dd29f247cefe78b97f"
       }
     }
   ]
